@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Neomorphic Budget Calculator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="calculator">
+      <h1>Neomorphic Budget Calculator</h1>
+      <div class="input-group">
+        <label for="budget1">Budget 1:</label>
+        <input type="number" id="budget1" placeholder="Enter budget 1 amount">
+      </div>
+      <div class="input-group">
+        <label for="budget2">Budget 2:</label>
+        <input type="number" id="budget2" placeholder="Enter budget 2 amount">
+      </div>
+      <button onclick="calculateSavings()">Calculate Savings</button>
+      <div class="result">
+        <p>Your savings are:</p>
+        <span id="savings"></span>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
